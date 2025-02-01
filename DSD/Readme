@@ -1,1 +1,25 @@
+# 🚀 Parallel to Serial Converter for 8-Point FFT  
+### Converting Parallel FFT Output to Serial Data Using Verilog HDL  
+
+![Verilog](https://img.shields.io/badge/Verilog-HD%20Design-blue)  
+![FPGA](https://img.shields.io/badge/FPGA-SP601-orange)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+
+## 📌 Project Overview  
+This project implements a **Parallel to Serial Converter (PISO)** to efficiently serialize the **8-bit parallel output** of an **8-point Fast Fourier Transform (FFT)**. The design ensures seamless data conversion for further **processing or transmission**.  
+
+🔹 **Designed in:** Verilog HDL  
+🔹 **Simulated in:** ModelSim / Xilinx Vivado  
+🔹 **Target FPGA:** SP601  
+🔹 **Key Features:** High-speed serialization, Reset & Load functionality, FPGA-ready design  
+
+---
+
+##📜 How It Works  
+### 🏗️ **PISO Architecture**  
+The converter consists of:  
+✔️ **Shift Register:** Stores the 8-bit FFT output  
+✔️ **Load Signal:** Captures parallel data before shifting  
+✔️ **Clocked Operation:** Transmits data **bit-by-bit** per clock cycle  
+✔️ **Reset Mechanism:** Ensures a clean state before each operation  
 
