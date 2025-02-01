@@ -1,4 +1,4 @@
-# 🚀 Parallel to Serial Converter for 8-Point FFT  
+###Parallel to Serial Converter for 8-Point FFT  
 ### **Efficiently Convert Parallel FFT Output to Serial Data Using Verilog HDL**  
 
 ![Verilog](https://img.shields.io/badge/Verilog-HDL%20Design-blue)  
